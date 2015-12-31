@@ -71,6 +71,21 @@
 	<hud>
 		<enable3d>false</enable3d>
 	</hud>
+	<menubar>
+		<default>
+		<menu n="10">
+			<label>Kerdi PLUS</label>
+			<enabled type="bool">true</enabled>
+			<item>
+				<label>Select Livery</label>
+				<binding>
+					<command>nasal</command>
+					<script>aircraft.livery.dialog.toggle()</script>
+				</binding>
+			</item>
+		</menu>
+		</default>
+	</menubar>
 
 </sim>
 
@@ -140,9 +155,9 @@
 	</keyboard>
 </input>
 <nasal>
-	<tampa>
+	<gtav-declasse-voodoo>
 		<file>Aircraft/gtav-declasse-voodoo/Nasal/systems.nas</file>        
-	</tampa>
+	</gtav-declasse-voodoo>
 </nasal>
 </PropertyList>
 

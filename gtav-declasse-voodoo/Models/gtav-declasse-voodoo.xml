@@ -1,11 +1,28 @@
 <PropertyList>
  
 <path>gtav-declasse-voodoo.ac</path>
+  <nasal>
+    <load>
+      var livery_update = aircraft.livery_update.new("Aircraft/gtav-declasse-voodoo/Models/Liveries", 10);
+    </load>
 
+    <unload>
+      livery_update.stop();
+    </unload>
+  </nasal>
 <effect>
         <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
         <object-name>Chrome</object-name>
 </effect>
+
+<animation>
+    <type>material</type>
+    <object-name>Body</object-name>
+    <property-base>sim/model/livery</property-base>
+    <texture-prop>texture</texture-prop>
+    <texture>Kerdi Cadmium Green.png</texture>
+  </animation>
+
 
 <!-- FRONT WHEEL LEFT -->
 

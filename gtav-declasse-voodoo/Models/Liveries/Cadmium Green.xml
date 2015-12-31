@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--####    GTA V Declasse Voodoo  ####
+####    AUSDKUNST    ####
+-->
+
+<PropertyList>
+<sim>
+    <model>
+        <livery>
+            <name type="string">Cadmium Green</name>
+            <texture>Kerdi Cadmium Green.png</texture>
+        </livery>
+    </model>
+</sim>
+</PropertyList>
