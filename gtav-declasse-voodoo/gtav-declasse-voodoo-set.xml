@@ -12,6 +12,9 @@
 <startup>
 	<splash-texture>Aircraft/gtav-declasse-voodoo/Splash/splash1.png</splash-texture>
 </startup>
+	<sound>
+   	<path>Aircraft/gtav-declasse-voodoo/Sounds/voodoo_sound.xml</path>
+  	</sound>
 
 	<model>
 		<path>Aircraft/gtav-declasse-voodoo/Models/gtav-declasse-voodoo.xml</path>
