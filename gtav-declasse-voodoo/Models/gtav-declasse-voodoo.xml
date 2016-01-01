@@ -10,10 +10,6 @@
       livery_update.stop();
     </unload>
   </nasal>
-<effect>
-        <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
-        <object-name>Chrome</object-name>
-</effect>
 
 <animation>
     <type>material</type>
@@ -24,6 +20,16 @@
   </animation>
 
 
+<!-- ========== Effects ========= -->
+
+	<effect>
+		<inherits-from>Aircraft/gtav-declasse-voodoo/Models/Effects/voodooreflect</inherits-from>
+		<object-name>Body</object-name>
+	</effect>
+	<effect>
+		<inherits-from>Aircraft/gtav-declasse-voodoo/Models/Effects/voodoo2reflect</inherits-from>
+		<object-name>Chrome</object-name>
+	</effect>
 <!-- FRONT WHEEL LEFT -->
 
 <animation>
