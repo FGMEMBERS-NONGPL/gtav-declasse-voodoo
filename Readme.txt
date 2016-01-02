@@ -6,6 +6,7 @@ Australien Digitale Kunst
 
 Thank you for downloading GTA V Declasse Voodoo for Flightgear.
 Conditions of Use: only for non-profit commercial or personal end use 
-Please do not redistribute this mod to other sites or services. For future updates, please follow me on twitter (http://twitter.com/KerdiGarage)
+"This material is covered under the Creative Commons NC-SA-ND 4.0, if you did not received a copy of the license, you can find one at http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode" 
+For future updates, please follow me on twitter (http://twitter.com/KerdiGarage)
 
 Have FUN!
