@@ -9,23 +9,18 @@
       <name>engine #1 running</name>
       <mode>looped</mode>
       <path>Aircraft/gtav-declasse-voodoo/Sounds/engine.wav</path>
-      <volume>
-  <property>/controls/engines/engine/throttle</property>
-        <factor>.05</factor>
-	<offset>1</offset>
-      </volume>
-        <pitch>
-  <property>/controls/engines/engine/throttle</property>
-         <factor>.8</factor>
-         <offset>0.8</offset>
-        </pitch>
-  <condition>
-      <greater-than-equals>
-  <property>/fdm/jsbsim/sim-time-sec</property>
-        <value>1.5</value>
-      </greater-than-equals>
-  </condition>
+<condition>
+    <property>/engines/engine/running</property>
+   </condition>
+   <volume>
+    <property>/engines/engine/mp-osi</property>
+    <factor>0.005</factor>
+    <min>0.15</min>
+    <max>0.25</max>
+    <offset>0.15</offset>
+   </volume>
     </engine>
+
 
     <tire-rumble>
       <name>tire-rumble</name>
